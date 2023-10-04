@@ -5,15 +5,13 @@ import {
     Box,
     Heading,
     Container,
+    Image,
   } from '@chakra-ui/react'
 
 const Navbar = () => {
     const listItems = [
         {
             name: 'HOME'
-        },
-        {
-            name: 'ABOUT US'
         },
         {
             name: 'MENU'
@@ -33,7 +31,7 @@ const Navbar = () => {
                 px={'75px'} 
                 pt={'20px'} 
                 as={'section' }
-                bgColor={'black'}
+                bgColor={'#222222'}
             >
                 <Container
                     flexDir={'row'} 
@@ -44,6 +42,7 @@ const Navbar = () => {
                         color={'white'}
                         fontSize={'40px'}
                         fontFamily={'NotoSerif'}
+                        ml={'45px'}
                     >
                         LS Café
                     </Heading>
